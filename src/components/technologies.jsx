@@ -9,7 +9,7 @@ import { SiMysql } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaFlutter } from "react-icons/fa6";
 
-const technologies = () => {
+const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
         <h1 className="my-20 text-center text-4xl">TECHNOLOGIES</h1>
@@ -49,4 +49,4 @@ const technologies = () => {
   )
 }
 
-export default technologies
+export default Technologies

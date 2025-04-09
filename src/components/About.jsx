@@ -1,6 +1,6 @@
 import aboutimg from '../assets/about.jpg'
 import { ABOUT_TEXT } from '../constants'
-const about = () => {
+const About = () => {
   return (
     <div className=" border-b border-neutral-900 pb-4">
         <h2 className="my-20 text-center text-4xl">ABOUT
@@ -22,4 +22,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
