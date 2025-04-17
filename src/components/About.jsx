@@ -1,4 +1,4 @@
-import aboutimg from '../assets/about.jpg';
+import aboutimg from '../assets/about3.jpg';
 import { ABOUT_TEXT } from '../constants';
 import { motion } from 'framer-motion';
 
@@ -41,7 +41,7 @@ const About = () => {
             <motion.img
               src={aboutimg}
               alt="about"
-              className="rounded-2xl shadow-lg"
+              className="w-72 sm:w-96 md:w-[28rem] h-auto rounded-2xl shadow-lg"
               whileHover={{ scale: 1.05 }}
               transition={{ type: 'spring', stiffness: 150 }}
             />
